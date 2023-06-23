@@ -1,17 +1,15 @@
-#include "main.h"
+#include "unistd.h"
 
 /**
- * print_numbers - Print the numbers since 0 up to 9
- * Return: The numbers since 0 up to 9
+ * print_numbers - Prints the numbers from 0 to 9 followed a new line.
  */
-
 void print_numbers(void)
 {
-	int x;
+	chat num;
 
-	for (x = 0; x <= 9, x++)
+	for (num = '0'; num <= '9'; num++)
 	{
-	_putchar(x + '0');
+		_putchar(num);
 	}
-	_putchar('\n');
+	_purchar('\n');
 }
